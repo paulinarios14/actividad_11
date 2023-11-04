@@ -1,0 +1,27 @@
+/* Estilos para el rostro */
+circle {
+    fill: #f3c3a0; /* Color de piel */
+    stroke: #c68d6d; /* Borde del rostro */
+    stroke-width: 3;
+}
+
+/* Estilos para los ojos (usando la clase "ojo") */
+circle.ojo {
+    fill: #fff; /* Color de los ojos */
+    stroke: #000; /* Borde de los ojos */
+    stroke-width: 2;
+    transition: fill 0.3s; /* Transición de color al hacer hover */
+}
+
+/* Estilos para la boca */
+ellipse {
+    fill: #ff0000; /* Color de la boca */
+    stroke: #c20000; /* Borde de la boca */
+    stroke-width: 2;
+}
+
+/* Estilos para las cejas */
+line {
+    stroke: #000; /* Color de las cejas */
+    stroke-width: 5; /* Grosor de las cejas */
+}
